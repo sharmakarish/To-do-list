@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Inknut+Antiqua:wght@300&display=swap');
+
+body{
+ background-color: rgb(205, 161, 216);
+ font-family: 'Caveat Brush', cursive;
+}
+ul {
+  list-style: none;
+  width: 400px;
+}
+
+.wrapper {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto 0;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.form {
+  width: 400px;
+}
+
+.form__input {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px dashed rgb(169, 113, 204);
+  padding-bottom: 10px;
+  height: 67px;
+}
+
+.form__edit-input {
+  outline: none;
+  border: none;
+  font-size: 20px;
+  width: 90%;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+button{
+  background-color: yellowgreen;
+}
